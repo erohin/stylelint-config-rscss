@@ -1,0 +1,21 @@
+{
+  "name": "stylelint-config-rscss",
+  "main": "index.js",
+  "author": "Evgeny Erohin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": { "node": ">=9" },
+  "description": "The base Stylelint config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erohin/stylelint-config-rscss.git"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "18.2.0",
+    "stylelint-rscss": "0.4.0",
+    "stylelint-scss": "3.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^9"
+  }
+}
